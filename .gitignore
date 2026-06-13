@@ -1,0 +1,37 @@
+# Python environments and cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and Raw Images (Ignored to save repository space)
+dataset/**/*.jpg
+dataset/**/*.jpeg
+dataset/**/*.png
+dataset/**/*.JPG
+dataset/train/
+dataset/valid/
+dataset/test/
+calibration/images/
+measurement/images/
+*.jpg
+*.jpeg
+*.png
+*.zip
+*.rar
+
+# Deep Learning Model Weights
+*.pth
+*.pt
+models/*.pth
+models/*.pt
+output/
+
+# macOS / Windows OS files
+.DS_Store
+Thumbs.db
