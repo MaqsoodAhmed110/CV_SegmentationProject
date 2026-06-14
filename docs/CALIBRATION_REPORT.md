@@ -6,7 +6,7 @@ Intrinsic camera calibration was performed using OpenCV's `cv2.calibrateCamera` 
 
 Here is an example of a checkerboard image used for calibration.
 
-![Detected Checkerboard Corners](docs\images\calibration.png "Calibration Image with Detected Corners")
+![Detected Checkerboard Corners](docs/calibration.png "Calibration Image with Detected Corners")
 ## Calibration Parameters
 
 ### Intrinsic Camera Matrix
