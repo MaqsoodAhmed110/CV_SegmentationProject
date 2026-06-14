@@ -2,7 +2,11 @@
 
 ## Method
 Intrinsic camera calibration was performed using OpenCV's `cv2.calibrateCamera` function with a standard black-and-white checkerboard pattern. A total of 22 unique images were captured from varied angles and distances. The algorithm successfully identified the inner corners on 4 distinct viewpoints to compute the intrinsic camera matrix and distortion coefficients. Sub-pixel optimization was used to refine the corner detections before computing the final matrix.
+## Calibration Images
 
+Here is an example of a checkerboard image used for calibration.
+
+![Detected Checkerboard Corners](docs\images\calibration.png "Calibration Image with Detected Corners")
 ## Calibration Parameters
 
 ### Intrinsic Camera Matrix
