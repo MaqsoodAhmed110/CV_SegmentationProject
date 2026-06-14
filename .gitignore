@@ -25,6 +25,8 @@ measurement/images/
 *.zip
 *.rar
 
+!docs/images/
+
 # Deep Learning Model Weights
 *.pth
 *.pt
