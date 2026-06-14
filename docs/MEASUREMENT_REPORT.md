@@ -12,12 +12,12 @@ The final measurement pipeline integrates all previously developed components to
 ## Measurement Output Examples
 
 ### Sample Result 1
-![Measurement Output 1](1.png)
+![Measurement Output 1](1.jpeg)
 
 *Segmentation mask and measured dimensions overlaid on the test image.*
 
 ### Sample Result 2
-![Measurement Output 2](2.png)
+![Measurement Output 2](10.jpeg)
 
 *Example demonstrating the pixel-to-millimetre conversion pipeline.*
 
