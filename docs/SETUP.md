@@ -33,7 +33,7 @@ This will output `calibration/calibration_params.pkl` which is strictly required
 
 ## 3. Deep Learning Training (Google Colab)
 Detectron2 (by Meta AI) is utilized for instance segmentation. Due to local Windows C++ build constraints, training is performed on Google Colab.
-1. Upload your exported `dataset.zip` and `models/colab_training.py` to Colab.
+1. Upload your exported `dataset.zip` and `models/segmetation.ipynb` to Colab.
 2. Execute the commands outlined in `models/COLAB_INSTRUCTIONS.md`.
 3. Download the resulting `model_final.pth` into your local `models/` directory.
 
